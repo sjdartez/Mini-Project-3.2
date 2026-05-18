@@ -156,3 +156,18 @@ footer {
 .footer__link {
   padding: 0 16px;
 }
+
+@media (max-width: 728px) {
+  .row {
+    flex-direction: column;
+  }
+}
+
+.home__description {
+  margin-bottom: 24px;
+}
+
+h1 {
+  text-align: venter;
+  font-size: 60px;
+}
